@@ -217,3 +217,32 @@ section h2 {
 .nav-links a:hover {
   color: #00d4ff;
 }
+.project-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.project-links a {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.project-links a:first-child {
+  background: transparent;
+  border: 1px solid #00d4ff;
+  color: #00d4ff;
+}
+
+.project-links a:last-child {
+  background: #00d4ff;
+  color: #0a0a0a;
+}
+
+.project-links a:hover {
+  transform: translateY(-2px);
+}

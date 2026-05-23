@@ -48,11 +48,19 @@ function App() {
             <h3>Portfolio Website</h3>
             <p>Personal portfolio built with React.js showcasing my skills and projects.</p>
             <div className="tags"><span>React.js</span><span>CSS</span></div>
+            <div className="project-links">
+              <a href="https://github.com/sasi59249-alt/my-portfolio" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://my-portfolio-ahry-lq1jnxazt-personal-s-projects9.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
           </div>
           <div className="project-card">
             <h3>To-Do App with Auth</h3>
             <p>Full stack to-do application with user authentication, CRUD operations.</p>
             <div className="tags"><span>React.js</span><span>Node.js</span><span>MongoDB</span></div>
+            <div className="project-links">
+              <a href="https://github.com/sasi59249-alt/todo-app" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://my-portfolio-985pirz4g-personal-s-projects9.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
           </div>
         </div>
       </section>
